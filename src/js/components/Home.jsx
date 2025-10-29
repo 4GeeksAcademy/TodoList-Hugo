@@ -12,6 +12,10 @@ const Home = () => {
 		setTodos([...todos,inputValue])
 		setInputValue("")
 	}
+	function quitarTarea(){
+
+	}
+
 	return (
 		<div className="container">
 			<h1>To-Do List</h1>
@@ -20,10 +24,11 @@ const Home = () => {
 					type="text"
 					value={inputValue}
 					onChange={(event) => setInputValue(event.target.value)}
+				
 					placeholder="Cosas pendientes"/>
 				<button onClick={agregarTarea}>Agregar tarea</button>	
 			<ul>
-				{todos.map(todo=> <li key={todo}>{todo}</li>)}
+				{todos.map(todo=> <li key={todos}>{todos}<i className="fa-solid fa-trash"></i> </li>)}
 			</ul>
 			<div>{todos.length} tareas pendientes</div>
 		</div>

@@ -26,5 +26,18 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  }
+  },
+  "description": "> 🎥 Esta plantilla [cuenta con un video tutorial](https://youtu.be/oGpSVBsq7BA), para verlo haz clic aquí.",
+  "main": "deploy-to-github.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/TodoList-Hugo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/TodoList-Hugo/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/TodoList-Hugo#readme"
 }

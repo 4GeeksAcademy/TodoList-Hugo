@@ -1,32 +1,75 @@
-/* 
-    You can write your own styles here...
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-   import 'relative/path/to/stylesheet.scss';
-*/
+body {
+  background-color: #f5f5f5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  margin: 0;
+  padding: 0;
+}
 
-body{
-    margin-top:100px;
+.container {
+  text-align: center;
+  margin-top: 80px;
 }
-form{
-    border: 1px;
-    width: 100%;
-    border: 2px 
-}
-ul{
-    padding: 0;
-}
-ul li{
 
-    border: 1px;
-    list-style: none;
-    padding: 5px;
-    margin: 0;
+h1 {
+  font-size: 100px;
+  font-weight: 100;
+  color: #264297;
+  text-align: center;
+  margin-bottom: 20px;
 }
-h1{
-    text-align: center;
-}
-input{ 
-    border:none;
 
+input {
+  width: 500px;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+              0 25px 50px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background-color: #f5f5f5;
+  border: none;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+              0 25px 50px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+li {
+  padding: 16px 24px;
+  border-bottom: 1px solid #ededed;
+  font-size: 24px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+div {
+  color: #bfbfbf;
+  margin-top: 10px;
+  font-size: 14px;
 }
